@@ -1,0 +1,80 @@
+/* App container */
+.app-container {
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Display */
+.display_container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-right: 5px;
+
+}
+
+.display {
+    margin-left: auto;
+}
+
+.accumulator {
+    height: 30px;
+}
+
+.input {
+    height: 48px;
+    font-size: 40px;
+}
+
+/* Board */
+.board_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    margin-right: 10px
+}
+
+.number {
+    border: 1px solid blue;
+    padding: 0;
+    margin: 1px;
+    width: 60px;
+    color: blue;
+    height: 60px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+}
+
+.number.clear, .number.dot {
+    border: 1px solid purple;
+    color: purple;
+}
+
+
+.operations {
+    display: flex;
+    flex-direction: column
+}
+
+.operation {
+    flex: 1;
+    padding: 0;
+    margin: 1px;
+    width: 60px;
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    text-align: center;
+}
+
+.operation.cal {
+    border: 1px solid green;
+    color: green;
+    margin-left: 3px;
+}
