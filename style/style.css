@@ -1,6 +1,6 @@
 /* App container */
 .app-container {
-    max-width: 260px;
+    max-width: 265px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,9 +9,11 @@
 .display_container {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     padding-right: 5px;
-
+    background-color: white;
+    color: black;
+    border: 2px solid #555555; /* Green */
+    margin: 0 1px;
 }
 
 .display {
@@ -38,21 +40,20 @@
 }
 
 .number {
-    border: 1px solid blue;
-    padding: 0;
+    padding-top: 10px;
     margin: 1px;
     width: 60px;
-    color: blue;
+    color: white;
     height: 60px;
-    background-color: white;
+    background-color: #008CBA;
     display: inline-block;
     text-align: center;
     font-size: 24px;
 }
 
 .number.clear, .number.dot {
-    border: 1px solid purple;
-    color: purple;
+    background-color: #e7e7e7; 
+    color: black;
 }
 
 
@@ -63,18 +64,17 @@
 
 .operation {
     flex: 1;
-    padding: 0;
+    padding-top: 3px;
     margin: 1px;
     width: 60px;
     font-size: 24px;
-    background-color: white;
-    border: 1px solid orange;
-    color: orange;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
 }
 
 .operation.cal {
-    border: 1px solid green;
-    color: green;
-    margin-left: 3px;
+    padding-top: 10px;
+    background-color: #f44336;
+    margin-left: 8px;
 }
